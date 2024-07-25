@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Outfit';
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 500;
+}
+
+main {
+    max-width: 350px;
+    max-height: 500px;
+    background-color: white;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-radius:15px ;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.988);
+
+    margin-bottom: 50px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.info {
+    margin-bottom: -20px;
+}
+
+.info > #learning {
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+
+    width: min-content;
+    padding: 5px 10px;
+
+    border-radius: 5px;
+}
+
+.info > #data {
+   color: hsl(0, 0%, 7%);
+}
+
+.principal > h1 > a {
+    color: black;
+    text-decoration: none;
+}
+
+.principal > h1 > a:hover{
+    color: hsl(47, 88%, 63%);
+}
+.principal > p {
+    color: hsl(0, 0%, 42%);
+    margin-bottom: 25px;
+}
+
+.destaque {
+    font-weight: 800;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution > a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.autor {
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    
+}
+
+.autor > img {
+    width: 35px;
+    height: 35px;
+}
